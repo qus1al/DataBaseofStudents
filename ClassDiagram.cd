@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StudentDBClass">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAsAgAAAgAAAAAIABgAsCAAACgCAAAAIAAACgAAEAAA=</HashCode>
+      <FileName>StudentDBClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentClass">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAIAAAAAAAAAACEACEAAMAAAACAAAAAECAABiAAAAA=</HashCode>
+      <FileName>StudentClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StringMasClass">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="StringMasClass::node" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>StringMasClass.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAgAAAQAAABAAACAAACAAAAAAAgAACAAAAAAA=</HashCode>
+      <FileName>StringMasClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StringBuilderClass">
+    <Position X="2.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAARAAAAAACgAEAAAAAAA=</HashCode>
+      <FileName>StringBuilderClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileManagerClass">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAABAAgA=</HashCode>
+      <FileName>FileManagerClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExamsResultsClass">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAQAAAAAABAAAAAQAAACAAA=</HashCode>
+      <FileName>ExamsResultsClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassMenu">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAgACCAAAAIAEAAqAAIAAAAAAAAABABgAAAgQAQA=</HashCode>
+      <FileName>ClassMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassEdit">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAkBEAACIAAAAAAAAAAAAAQQAQACAAAIA=</HashCode>
+      <FileName>ClassEdit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BirthDateClass">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAJAAAAAAAAAAAQAAAAAQAAAAEAAAAQAQAAAA=</HashCode>
+      <FileName>BirthDateClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="StudentNode">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAAAAgIgAAAAAAAAAQAAAAQFAAEAAAEgAAAAAIAAgA=</HashCode>
+      <FileName>StudentClass.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ExamsRecords">
+    <Position X="7.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAwAA=</HashCode>
+      <FileName>ExamsResultsClass.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
