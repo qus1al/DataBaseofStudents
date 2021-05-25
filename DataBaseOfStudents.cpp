@@ -86,13 +86,13 @@ int main()
                 {
                     int num = resultStudentSelectedItem - 2; //!
                     sn = sdb->getStudentNode(num);
-                    string oldRecordСardNumber = "";
-                    oldRecordСardNumber = sn->recordСardNumber;
+                    string oldRecordCardNumber = "";
+                    oldRecordCardNumber = sn->recordCardNumber;
                     st->editStudent(sn);
 
-                    if (sdb->getSameRecordСardNumber(sn->recordСardNumber) > 1)
+                    if (sdb->getSameRecordCardNumber(sn->recordCardNumber) > 1)
                     {
-                        sn->recordСardNumber = oldRecordСardNumber;
+                        sn->recordCardNumber = oldRecordCardNumber;
                         cout << "Ошибка введен номер зачетной книжки который уже есть в БД";
                         _getch();
                     }
@@ -105,7 +105,7 @@ int main()
                 for (int j = 0; j < 10; j++)
                     sn->examsRecordsData[i][j].isEmpty = true;
             st->editStudent(sn);
-            if (sdb->getSameRecordСardNumber(sn->recordСardNumber) == 1)
+            if (sdb->getSameRecordCardNumber(sn->recordCardNumber) == 1)
             {
                 cout << "Ошибка введен номер зачетной книжки который уже есть в БД";
                 _getch();

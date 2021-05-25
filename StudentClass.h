@@ -16,7 +16,7 @@ struct StudentNode
 	string faculty;
 	string department;
 	string group;
-	string recordСardNumber;
+	string recordCardNumber;
 	string birthDateString;
 	bool sex; // true - мальчик
 			  // false - девочка
@@ -58,7 +58,7 @@ public:
 		stringMas.Add(sb.setParam("faculty", sn->faculty));
 		stringMas.Add(sb.setParam("department", sn->department));
 		stringMas.Add(sb.setParam("group", sn->group));
-		stringMas.Add(sb.setParam("recordСardNumber", sn->recordСardNumber));
+		stringMas.Add(sb.setParam("recordСardNumber", sn->recordCardNumber));
 		int intSex = 1;
 		if (sn->sex)
 			intSex = 1;
@@ -133,7 +133,7 @@ public:
 			if (sn->sex) { sexString = "мальчик:("; }
 			else { sexString = "девочка;)"; }
 			studDataMenu->addTitleItem("пол: " + sexString + " дата рождения: " + sn->birthDateString + " год поступления:" + std::to_string(sn->startYear));
-			studDataMenu->addTitleItem("Номер зачетной книжки: " + sn->recordСardNumber + " Группа: " + sn->group);
+			studDataMenu->addTitleItem("Номер зачетной книжки: " + sn->recordCardNumber + " Группа: " + sn->group);
 			studDataMenu->addTitleItem("Институт: " + sn->faculty);
 			studDataMenu->addTitleItem("Кафедра: " + sn->department);
 			studDataMenu->run();
@@ -173,7 +173,7 @@ public:
 				break;
 			case 7:
 				ce->setLabel("Введите номер зачетной книжки. ");
-				sn->recordСardNumber = ce->setDataString(sn->recordСardNumber);
+				sn->recordCardNumber = ce->setDataString(sn->recordCardNumber);
 				break;
 			case 8:
 				ce->setLabel("Введите пол. ");

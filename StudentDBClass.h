@@ -68,8 +68,8 @@ public:
 							sn->department = value;
 						if (strcmp("group", valueName.c_str()) == 0)
 							sn->group = value;
-						if (strcmp("recordÑardNumber", valueName.c_str()) == 0)
-							sn->recordÑardNumber = value;
+						if (strcmp("recordCardNumber", valueName.c_str()) == 0)
+							sn->recordCardNumber = value;
 						if (strcmp("birthDateString", valueName.c_str()) == 0)
 							sn->birthDateString = value;
 						for (int i = 0; i < 9; i++)
@@ -153,7 +153,7 @@ public:
 		tNode->faculty = st->faculty;
 		tNode->department = st->department;
 		tNode->group = st->group;
-		tNode->recordÑardNumber = st->recordÑardNumber;
+		tNode->recordCardNumber = st->recordCardNumber;
 		tNode->sex = st->sex;
 		tNode->startYear = st->startYear;
 		tNode->birthDateString = st->birthDateString;
@@ -255,13 +255,13 @@ public:
 		}
 		count--;
 	};
-	int getSameRecordÑardNumber(string inString) {
+	int getSameRecordCardNumber(string inString) {
 		StudentNode* curr = NULL;
 		curr = head;
 		int count = 0;
 		while (curr) {
 			//cout << curr->surName << endl;
-			if (strcmp(inString.c_str(), curr->recordÑardNumber.c_str()) == 0) {
+			if (strcmp(inString.c_str(), curr->recordCardNumber.c_str()) == 0) {
 				count++;
 			}
 			curr = curr->next;
